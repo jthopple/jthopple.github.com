@@ -1,10 +1,9 @@
-/*  
+/*
 Author: Jeremy Hopple
 Author URI: http://jthopple.com
 */
 
 body {
-  background:url(/images/teton.gif) top left no-repeat; color:#222;
   font-family: sans-serif;
   font-size: 14px;
   min-width: 800px;
@@ -15,25 +14,25 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
 pre,form,fieldset,p,blockquote,th,td {
   margin:0;
   padding:0;
-} 
+}
 
 a { color: #2c74c8; text-decoration: none; }
 a:hover { color: #6db0ee; }
 
-.bullets { 
-  margin-left: 30px; font-size: 1em; line-height: 1.5em; 
-  margin-top: 1.5em; margin-bottom: 1.5em; 
+.bullets {
+  margin-left: 30px; font-size: 1em; line-height: 1.5em;
+  margin-top: 1.5em; margin-bottom: 1.5em;
 }
 
 /* Phasing */
-p { 
-  font-size: 1em; line-height: 1.5em; margin-top: 1.5em; margin-bottom: 1.5em; 
+p {
+  font-size: 1em; line-height: 1.5em; margin-top: 1.5em; margin-bottom: 1.5em;
   text-align: justify;
 }
 
-h1 { 
-  color: #ff6600; font-size:2em; line-height:.75; 
-  margin-top:0; margin-bottom:0; text-decoration: none; 
+h1 {
+  color: #ff6600; font-size:2em; line-height:.75;
+  margin-top:0; margin-bottom:0; text-decoration: none;
 }
 
 h1 a { color: #ff6600; }
@@ -48,7 +47,7 @@ dl dt { font-weight:bold; color: 222; }
 
 #navigation { position: absolute; top: 35px; right: 30px; }
 #navigation li { display: inline; padding: 0 5px; color: #fff; }
-#footer li a, #navigation li a { 
+#footer li a, #navigation li a {
   color: #fff; font-weight: bold; text-decoration: none;
 }
 
@@ -59,42 +58,42 @@ dl dt { font-weight:bold; color: 222; }
 
 h1#site_name { position: absolute; top: 5px; right: 30px; color:#6db0ee; font-size:1.3em; line-height:1.3em; }
 
-#wrap {  
+#wrap {
   background: #fff; margin:0; padding:0; margin-top: 58px; overflow: hidden;
 }
 
 #content { margin: 20px auto 30px; width:90%; overflow:hidden; }
-#content #main { margin-right: 151px; } 
+#content #main { margin-right: 151px; }
 #sidebar {float: right; width: 131px; padding: 5px 0 5px 7px; border-left:1px dotted #eee; }
 
 #footer {
 }
 
-#footer .list { 
+#footer .list {
   width: 10em; float: left; margin-right: 1.5em; margin-bottom: 1.5em;
 }
 
-#footer h4 { 
-  font-size: 1.1em; line-height: 1.4em; border-bottom: 1px solid #fff; 
-  margin-bottom: .2em; font-weight:bold; padding-left: .2em; 
+#footer h4 {
+  font-size: 1.1em; line-height: 1.4em; border-bottom: 1px solid #fff;
+  margin-bottom: .2em; font-weight:bold; padding-left: .2em;
 }
 
-#footer ul#sections li { 
-  list-style: none; line-height: 1.5em; padding-left: .3em; 
+#footer ul#sections li {
+  list-style: none; line-height: 1.5em; padding-left: .3em;
 }
 
 h1#section_title { margin-bottom: 1em; color: #efefef; float: right; display:inline;
 }
 
-#content .entry { 
+#content .entry {
   background: #fff;
   padding: .2em 0;
   border-bottom: 1px dotted #eee;
   margin-bottom: 1.5em;
 }
 
-#content .entry .more, #content .entry .references, #content .entry .comment_count { 
-  font-size: .9em; 
+#content .entry .more, #content .entry .references, #content .entry .comment_count {
+  font-size: .9em;
 }
 
 #content .entry_footer { overflow: hidden; }
@@ -102,16 +101,16 @@ h1#section_title { margin-bottom: 1em; color: #efefef; float: right; display:inl
 #content .entry .comment_count { float: right; }
 #content .spread img { border:0; margin:0 2px;}
 
-#content .entry ul, #content .entry ol { 
-  line-height: 1.5em; 
-  margin: 1.5em 0 1.5em 40px; 
+#content .entry ul, #content .entry ol {
+  line-height: 1.5em;
+  margin: 1.5em 0 1.5em 40px;
 }
 
 #projects img { border: 4px solid #eee; }
 
 .tags { font-size: .8em; text-align: right; }
 
-pre.console { background: #000; color: #080; font-weight: bold; 
+pre.console { background: #000; color: #080; font-weight: bold;
   padding-left: 1em;
   font-size: 1em; line-height: 1.5em;
   font-family: 'Lucida Console', 'Courier New', monospace;
@@ -124,7 +123,7 @@ pre.console { background: #000; color: #080; font-weight: bold;
 .alt { background-color: #efefef; }
 
 #comment_form_container {
-  margin: 1em 0; padding: .5em 1.5em; 
+  margin: 1em 0; padding: .5em 1.5em;
   background-color: #efefef;
   border-top: 2px solid #ff6600;
 }
